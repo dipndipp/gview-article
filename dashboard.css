@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Poppins";
+  background-color: #ecffe8;
+}
+body {
+  background-image: url(/assets/bg.png);
+}
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.title h1 {
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  background-color: #9aff8a;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: transparent;
+}
+.title img {
+  max-width: 60px;
+  height: 60px;
+  margin-top: 25px;
+}
+.topheadline {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+.featuredtitle h1 {
+  font-size: 24px;
+}
+.topheadline img {
+  height: 195px;
+  width: 350px;
+  border-radius: 20px;
+}
+.textcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: -5px;
+}
+.textcontainer h4 {
+  padding-right: 20px;
+}
+.cardcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.viewcount {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: right;
+  background-color: transparent;
+}
+
+.viewcount h5 {
+  background-color: #9aff8a;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.viewcount i {
+  margin-top: 13px;
+  text-align: right;
+  font-weight: bold;
+}
+.headlinecard {
+  width: 350px;
+}
+.newsbox img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.back img {
+  height: 25px;
+  width: auto;
+  border-radius: 0;
+}
+.newsbox {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: space-between;
+}
+.newsbox h3 {
+  font-size: 12px;
+}
+.newsboxtext {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.newsboxtext .baca {
+  background-color: #9aff8a;
+  max-width: fit-content;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.newsboxtext a {
+  max-width: fit-content;
+}
+.newsboxtext span {
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.topcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .cardcontainer {
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .topcontainer {
+    flex-direction: column;
+  }
+  .newsbox {
+    width: 300px;
+  }
+}

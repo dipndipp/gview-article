@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  font-family: Poppins;
+  background-color: #ecffe8;
+}
+body {
+  background-image: url(/assets/bg.png);
+}
+.title h1 {
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  background-color: #9aff8a;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: transparent;
+}
+.logo {
+  display: flex;
+  background-color: transparent;
+}
+.logo img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 200px;
+  height: 50px;
+}
+.title img {
+  max-width: 60px;
+  height: 60px;
+  margin-top: 25px;
+}
+.back img {
+  width: 100px;
+  background-color: transparent;
+}
+.back {
+  background-color: transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.headline span {
+  background-color: #9aff8a;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.headline p {
+  margin-top: 0;
+}
+.headline h3 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.garis1 {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+hr {
+  border-top: 5px dotted black;
+}
+.gambar img {
+  position: relative;
+  width: 267px;
+  height: 379px;
+  border-radius: 10px;
+}
+.gambar {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.down {
+  margin-top: 50px;
+}
+.source {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: transparent;
+}
+
+.text {
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 7%;
+}
+.split {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kiri {
+  padding-right: 30px;
+}
+.cards img {
+  width: 258px;
+  height: 333px;
+  border-radius: 10px;
+}
+
+.cards {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+.newscapt {
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 10px;
+  background-color: transparent;
+  max-width: 258px;
+}
+.newscapt p {
+  background-color: transparent;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.newscapt a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+.card {
+  display: flex;
+}
+/* footer start */
+
+footer {
+  background-color: #151515;
+  margin-left: -1%;
+  margin-right: -0.5%;
+}
+.footercont {
+  display: flex;
+  background-color: #151515;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.keys {
+  background-color: transparent;
+  color: #fff;
+}
+.keys h1 {
+  background-color: transparent;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.keys p {
+  background-color: transparent;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.emailbox {
+  display: flex;
+  height: 45px;
+  background-color: transparent;
+  justify-content: space-between;
+}
+.keys h3 {
+  background-color: transparent;
+}
+.emailbox input {
+  width: 350px;
+  background-color: #d9d9d9;
+  border: none;
+}
+.emailbox button {
+  background-color: #9aff8a;
+  border: none;
+  width: 120px;
+}
+/* footer end */
+.pattern img {
+  max-width: 100%;
+  left: 0;
+}
+.pattern {
+  margin-left: -10px;
+  margin-right: -7px;
+  margin-bottom: -10px;
+}
+/* buat responsive */
+@media only screen and (max-width: 600px) {
+  * {
+    max-width: 100%;
+  }
+  .headline h3 {
+    font-size: 20px;
+  }
+  .headline {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .headline p {
+    font-size: 12px;
+  }
+  .gambar img {
+    width: 90px;
+    height: 128px;
+    padding-right: 6px;
+  }
+  .gambar {
+    margin-left: 8%;
+    justify-content: space-evenly;
+  }
+  .text {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 12px;
+  }
+  .source {
+    font-size: 12px;
+  }
+  .cards img {
+    width: 129px;
+    height: 166.5px;
+  }
+
+  .split {
+    flex-direction: column;
+  }
+  .kiri {
+    padding-right: 0;
+  }
+  .tab {
+    margin-left: 1em;
+  }
+
+  /*footer responsive  */
+  .footercont {
+    flex-direction: column;
+  }
+  .keys h1 {
+    font-size: 24px;
+  }
+  .keys p {
+    padding-top: 3px;
+    font-size: 15px;
+  }
+  footer {
+    background-color: #151515;
+
+    margin-left: -2%;
+    margin-right: -0.5%;
+  }
+  .pattern img {
+    height: 50px;
+  }
+  .newscapt p {
+    font-size: 10px;
+    color: white;
+  }
+  .newscapt {
+    max-width: 50px;
+  }
+  .newscapt a {
+    font-size: 12px;
+  }
+  .cards {
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* animasi */
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.floating1 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.floating2 {
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.floating3 {
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.floatingkiri {
+  animation-name: floatingkiri;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.floatingkanan {
+  animation-name: floatingkiri;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+/* @keyframes floatingkiri {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(15px, 0px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes floatingkanan {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 0px, 15px);
+  }
+  100% {
+    transform: translate(0, 0px, 0px, 0);
+  }
+} */
+/* slider */
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.tab {
+  margin-left: 4em;
+}
